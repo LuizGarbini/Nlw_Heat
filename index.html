@@ -14,10 +14,6 @@
       href="https: //fonts.googleapis.com/css2? family = Roboto: wght @ 700 & display = swap "
       rel=" stylesheet "
     />
-
-    <script>
-      alert("Tamo Junto Maik Brings");
-    </script>
   </head>
   <body>
     <main>
@@ -30,15 +26,15 @@
         </div>
 
         <h1>Luiz Garbini Neto</h1>
-        <a href="https://www.instagram.com/luizz3ra/?hl=pt-br" target="blank">
+        <a href="https://github.com/LuizGarbini/?hl=pt-br" target="blank">
           <img src="images/github.svg" alt="ícone" />
-          luizz3ra</a
+          luiz Garbini</a
         >
 
         <p>An instructor focused on helping pople start programming for web</p>
 
-        <ul>
-          <li>
+        <ul id="sociallinks">
+          <li class="youtube">
             <a
               href="https://www.youtube.com/channel/UCuOQFn0zMGz9AvDhTUe7hVQ"
               target="_blank"
@@ -46,7 +42,7 @@
               <img src="images/Youtube.svg" alt="ícone Youtube" />
             </a>
           </li>
-          <li>
+          <li class="instagram">
             <a
               href="https://www.instagram.com/luizz3ra/?hl=pt-br"
               target="_blank"
@@ -54,7 +50,7 @@
               <img src="images/Instagram.svg" alt="ícone Instagram" />
             </a>
           </li>
-          <li>
+          <li class="facebook">
             <a
               href="https://www.facebook.com/luizgarbinineto.garbini"
               target="_blank"
@@ -62,7 +58,7 @@
               <img src="images/Facebook.svg" alt="ícone Facebook" />
             </a>
           </li>
-          <li>
+          <li class="twitter">
             <a href="https://twitter.com/luizgnetoo" target="_blank">
               <img src="images/Twitter.svg" alt="ícone Twitter" />
             </a>
@@ -70,5 +66,32 @@
         </ul>
       </div>
     </main>
+    <script>
+      const links_social_media = {
+        github: "https://github.com/",
+        youtube: "https://youtube.com/channel/UCuOQFn0zMGz9AvDhTUe7hVQ",
+        facebook: "https://facebook.com/luizgarbinineto.garbini",
+        instagram: "https://instagram.com/luizz3ra",
+        twitter: "https://twitter.com/luizgnetoo",
+      };
+
+      function changelinks_social_media() {
+        const lista = Array.from(
+          document.getElementById("sociallinks").children
+        );
+
+        lista.forEach((elemento) => {
+          elemento.children[0].href = links_social_media[elemento.className];
+        });
+
+        for (let li of sociallinks.children) {
+        }
+      }
+
+      // 1 = 1 + 1
+      //1++
+
+      changelinks_social_media();
+    </script>
   </body>
 </html>
