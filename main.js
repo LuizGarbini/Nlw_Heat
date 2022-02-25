@@ -1,6 +1,5 @@
 const LinksSocialMedia = {
   github: "LuizGarbini",
-  youtube: "channel/UCuOQFn0zMGz9AvDhTUe7hVQ",
   facebook: "luizgarbinineto.garbini",
   instagram: "luizz3ra",
   twitter: "luizgnetoo",
