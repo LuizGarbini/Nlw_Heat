@@ -38,7 +38,7 @@ main {
 
   background-image: url(./images/cracha.svg);
   background-size: cover;
-  background-position: 0 0%;
+  background-position: 0 35%;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
   transition: all 0.2s ease-in-out;
@@ -154,6 +154,12 @@ ul {
   .container {
     background: none;
     box-shadow: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    padding: 45px 100px 32px 100px;
   }
 }
 
