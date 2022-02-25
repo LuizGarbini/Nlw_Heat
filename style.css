@@ -141,7 +141,6 @@ ul {
 }
 
 @media (max-width: 1080px) {
-  .name-container,
   .cordao,
   .corte {
     display: none;
@@ -149,6 +148,9 @@ ul {
 }
 
 @media (max-width: 1080px) {
+  .container:hover {
+    box-shadow: none;
+  }
   .container {
     background: none;
     box-shadow: none;
