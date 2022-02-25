@@ -17,7 +17,9 @@ function changeSocialMediaLinks() {
 changeSocialMediaLinks();
 
 function getGitGubProfileInfos() {
-  const url = `https://api.github.com/users/${LinksSocialMedia.github}`;
+  const url = `https://api.github.com/users/${
+    LinksSocialMedia.github ?? "LuizGarbini"
+  }`;
 
   fetch(url)
     .then((response) => response.json())
