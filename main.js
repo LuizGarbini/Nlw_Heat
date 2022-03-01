@@ -2,7 +2,7 @@ const LinksSocialMedia = {
   github: "LuizGarbini",
   facebook: "luizgarbinineto.garbini",
   instagram: "luizz3ra",
-  twitter: "luizgnetoo",
+  twitter: "GarbiniLuiz",
 };
 
 function changeSocialMediaLinks() {
